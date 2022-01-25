@@ -1,0 +1,158 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f2f1f7;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+div#wrap {
+    height: 100%;
+}
+
+div#wrap div#header h1 {
+    padding-left: 15px;
+}
+
+div#wrap div#see_more {
+    float: right;
+}
+
+div#wrap div#see_more img {
+    width: 50px;
+    float: right;
+    padding-right: 15px;
+}
+
+div#wrap div#see_more div#profile_list li a {
+    align-items: center;
+}
+
+div#wrap div#see_more div#profile_list li a p {
+    padding: 10px;
+}
+
+div#wrap div#see_more div#profile_list li a p img {
+    width: 20px;
+    padding: 0;
+}
+
+div#wrap div#see_more div#profile_list {
+    background-color: #ffffff;
+    width: 200px;
+    height: 35px;
+    margin-top: 50px;
+    border-radius: 10px;
+    display: none;
+    z-index: 100;
+}
+
+div#wrap div#main {
+    margin-top: 160px!important;
+    width: 70%;
+    height: 100%;
+}
+
+div#wrap div#main ul {
+    width: 100%;
+}
+
+div#wrap div#main ul li {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-bottom: 2px solid #dfe0de;
+    border-radius: 10px;
+}
+
+div#wrap div#main ul li p {
+    align-items: center;
+    margin: 0;
+}
+
+div#wrap div#main ul li p img {
+    width: 15px;
+}
+
+
+
+div#wrap div#main {
+    margin-top: 160px!important;
+    width: 70%;
+    height: 100%;
+}
+
+div#wrap div#main ul {
+    width: 100%;
+}
+
+div#wrap div#main ul li {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-bottom: 2px solid #dfe0de;
+    border-radius: 10px;
+}
+
+div#wrap div#main ul li p {
+    align-items: center;
+    margin: 0;
+}
+
+div#wrap div#main ul li p img {
+    width: 15px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer div#tab {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+footer div#tab div {
+    text-align: center;
+}
+
+footer div#tab div a img {
+    width: 35px;
+}
+
+footer div#tab div a p {
+    font-size: 13px;
+}
+
+footer div#tab div#item3 a p {
+    color: #3477f6;
+}
+
+@media (max-width: 768px) {
+    div#wrap div#main {
+        width: 85%;
+    }
+}

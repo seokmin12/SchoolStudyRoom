@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f2f1f7;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+div#wrap {
+    height: 100%;
+}
+
+div#wrap div#header h1 {
+    padding-left: 15px;
+}
+
+div#wrap div#main {
+    width: 70%;
+    margin: auto;
+}
+
+div#wrap div#main form section {
+    text-align: center;
+}
+
+div#wrap div#main form section#first_section {
+    margin-top: 130px;
+}
+
+div#wrap div#main form section input {
+    width: 100%;
+    font-size: 15px;
+    border: 0;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+div#wrap div#main form section input#title {
+    height: 30px;
+}
+
+div#wrap div#main form section input#content {
+    height: 80px;
+}
+
+div#wrap div#main form input[type="submit"] {
+    width: 100%;
+    margin-top: 50px;
+    height: 35px;
+    color: #3477f6;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 6px;
+    font-size: 18px;
+    text-align: start;
+    padding-left: 15px;
+}
+
+@media (max-width: 768px) {
+    div#wrap div#main {
+        width: 85%;
+    }
+}

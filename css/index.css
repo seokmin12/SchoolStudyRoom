@@ -1,0 +1,67 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+div#wrap {
+    text-align: center;
+    margin-top: 120px;
+}
+
+div#wrap div#header {
+    margin-bottom: 50px;
+}
+
+div#wrap div#header img {
+    margin-top: 30px;
+    width: 120px;
+}
+
+div#wrap div#items li a button {
+    width: 30%;
+    height: 50px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: white;
+    border: 0;
+    border-radius: 6px;
+}
+
+div#wrap div#items li a button#go_login {
+    background-color: #0984FF;
+}
+
+div#wrap div#items li a button#go_register {
+    background-color: #b25fea;
+}
+
+div#wrap div#items li a button#go_notice {
+    background-color: #f1a33b;
+}
+
+@media (max-width: 768px) {
+    div#wrap div#items li a button {
+        width: 90%;
+    }
+}
+

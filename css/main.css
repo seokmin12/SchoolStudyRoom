@@ -1,0 +1,102 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f2f1f7;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+header {
+    float: right;
+    margin-top: 80px;
+}
+
+header div#profile_list {
+    background-color: #f5f5f5;
+    width: 200px;
+    height: 130px;
+    margin-top: 50px;
+    border-radius: 10px;
+    display: none;
+}
+
+header div#profile_list li {
+    border-bottom: 1px solid #dfe0de;
+}
+
+header div#profile_list li p img {
+    width: 25px;
+}
+
+header div#profile_list li#logout {
+    border-bottom: 0;
+    border-top: 5px solid #dfe0de;
+}
+
+header div#profile_list li#logout p a {
+    color: red;
+}
+
+header div#profile_list li p {
+    padding: 10px;
+    font-size: 18px;
+    margin: 0;
+}
+
+header img {
+    width: 50px;
+    float: right;
+}
+
+#main {
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    position: absolute;
+    top: 45%;
+    margin-top: -50px;
+    text-align: center;
+}
+
+#main form {
+    margin-top: 10px;
+}
+
+#main form input {
+    background-color: #027AFF;
+    border: 0;
+    border-radius: 20px;
+    color: #ffffff;
+    width: 31%;
+    height: 50px;
+    font-size: 20px;
+}
+
+h3 {
+    color: red;
+}
+
+@media (max-width: 768px) {
+    #main form input {
+        width: 90%;
+    }
+}
