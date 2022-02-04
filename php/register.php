@@ -32,6 +32,9 @@
             </section>
             <input type="submit" value="회원가입 하기">
         </form>
+        <section id="teacher_register">
+            <a href="teacher_register.php">교사 가입하러 가기</a>
+        </section>
     </div>
 </body>
 
